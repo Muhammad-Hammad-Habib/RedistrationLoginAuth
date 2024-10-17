@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:dev": "nodemon"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,15 @@
   "homepage": "https://github.com/Muhammad-Hammad-Habib/RedistrationLoginAuth#readme",
   "description": "",
   "dependencies": {
-    "express": "^4.21.1"
+    "connect-mongo": "^5.1.0",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "express-session": "^1.18.1",
+    "mongodb": "^6.9.0",
+    "mongoose": "^8.7.1"
+  },
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
   }
 }
