@@ -15,5 +15,8 @@
     "url": "https://github.com/Muhammad-Hammad-Habib/RedistrationLoginAuth/issues"
   },
   "homepage": "https://github.com/Muhammad-Hammad-Habib/RedistrationLoginAuth#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
 }
