@@ -7,9 +7,9 @@ const connectDB = async (DB_URL) =>{
             dbName : "personinfo"
         }
         const res = await mongoose.connect(DB_URL,db_name)
-        console.log(res);
+        console.log("Database connected");
     } catch (error) {
-        console.log(error);
+        console.log(`Issue in connection ${error}`);
     }
 }
 export default connectDB  
