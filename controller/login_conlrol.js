@@ -40,7 +40,7 @@ class login_user {
         if (get_data.email === email && check_hashed) {
           console.log("you have succesfully Logged in ");
           resp.send(
-            `you have succesfully Logged in with this user ${get_data.email}`
+            `you have succesfully Logged in with this user ${get_data}`
           );
         } else {
           if (password.trim() == "") {
