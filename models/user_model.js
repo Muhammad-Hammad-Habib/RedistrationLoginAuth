@@ -1,5 +1,4 @@
 import mongoose from "mongoose";
-import { type } from "os";
 
 const user_schema = new mongoose.Schema({
   name: { type: String, require: true, trim: true },
